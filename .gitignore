@@ -1,0 +1,11 @@
+/.vs
+*.user
+/DellSmbiosBzhLib/bin
+/DellSmbiosBzhLib/obj
+/packages
+/DellSmbiosSmiLib/bin
+/DellSmbiosSmiLib/obj
+/DellFanManagementApp/bin
+/DellFanManagementApp/obj
+/DellSmmIoLibTest/bin
+/DellSmmIoLibTest/obj
