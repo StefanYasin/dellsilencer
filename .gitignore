@@ -9,3 +9,7 @@
 /DellFanManagementApp/obj
 /DellSmmIoLibTest/bin
 /DellSmmIoLibTest/obj
+
+# build artifacts
+bin/
+obj/
