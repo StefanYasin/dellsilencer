@@ -1,3 +1,13 @@
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/StefanYasin/dellsilencer?style=flat)]
+[![License](https://img.shields.io/github/license/StefanYasin/dellsilencer?style=flat)]
+[![Issues](https://img.shields.io/github/issues/StefanYasin/dellsilencer?style=flat)]
+[![Last commit](https://img.shields.io/github/last-commit/StefanYasin/dellsilencer?style=flat)]
+[![Language](https://img.shields.io/github/languages/top/StefanYasin/dellsilencer?style=flat)]
+
+</div>
+
 # DellFanManagement
 A suite of tools for managing the fans in many Dell laptops.
 
