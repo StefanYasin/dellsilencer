@@ -30,7 +30,7 @@ controller.SetFanLevel(FanLevel.Medium, FanIndex.Fan1);
 
 ## History
 
-Originally the DellFanManagement suite (fan tools for Dell hardware); rebuilt and focused on PowerEdge servers as `dellsilencer`.
+Built on the [DellFanManagement](https://github.com/AaronKelley/DellFanManagement) suite by [Aaron Kelley](https://github.com/AaronKelley) (GPL-3.0), which handles SMI/WMI fan control for Dell hardware. `dellsilencer` keeps that foundation and rebuilds it around PowerEdge servers, adding the hysteresis layer on top. Upstream author credit is retained in the application's about output and GUI.
 
 ## Tests
 
@@ -38,4 +38,4 @@ Originally the DellFanManagement suite (fan tools for Dell hardware); rebuilt an
 
 ## License
 
-GPL-3.0
+GPL-3.0, same as upstream.
