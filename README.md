@@ -10,6 +10,7 @@
 
 **Fan control for Dell PowerEdge servers. Quiet your rack without cooking your drives.**
 
+[![Tests](https://img.shields.io/github/actions/workflow/status/StefanYasin/dellsilencer/ci.yml?style=flat&label=tests)]
 </div>
 
 SMI-based fan control for Dell PowerEdge servers, with a hysteresis (deadband) layer that stops fan oscillation at idle and low load. Where the server's own firmware keeps the fans screaming, dellsilencer takes over and keeps them sane.
