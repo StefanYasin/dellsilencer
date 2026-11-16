@@ -37,6 +37,28 @@ Built on the [DellFanManagement](https://github.com/AaronKelley/DellFanManagemen
 
 `cd tests/HysteresisTests && dotnet test` (7/7 passing, no hardware needed).
 
+## FAQ
+
+**Which hardware does it support?**
+
+Dell PowerEdge servers with SMI-based fan control.
+
+**What is hysteresis?**
+
+A deadband around the target temperature: fans only change speed when the reading leaves that band, instead of reacting to every degree. This stops the oscillation where fans rev up and down constantly.
+
+**Why is it GPL-3.0?**
+
+It builds on DellFanManagement by Aaron Kelley, which is GPL-3.0, so dellsilencer is too. Upstream credit is retained in the README and in the app's about output.
+
+**Does it run on Linux?**
+
+No. SMI fan control is Windows-native. The test suite builds on any OS with .NET 9.
+
+**How do I build and test it?**
+
+`dotnet build`, then run the app. Tests: `dotnet test tests/HysteresisTests/HysteresisTests.csproj`
+
 ## License
 
 GPL-3.0, same as upstream.
